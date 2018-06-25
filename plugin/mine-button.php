@@ -1,3 +1,5 @@
+#Miner button implementation for Wordpress. Code to display Mine button on the front-end.
+
 <meta name="viewport" content="width=device-width, initial-scale=1">        
 
 <?php
