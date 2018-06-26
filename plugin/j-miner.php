@@ -1,6 +1,4 @@
-#JS Miner button implementation for Wordpress.
-
-<meta name="viewport" content="width=device-width, initial-scale=1">        
+<!--JS Miner button implementation for Wordpress.-->
 
 <?php
 //wp_register_script('angular.min', plugins_url('../assets/angular.min.js', __FILE__));
